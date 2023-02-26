@@ -10,7 +10,7 @@
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "test": "vitest",
-    "test:coverage": "vitest --coverage"
+    "test:watch": "vitest --watch"
   },
   "keywords": [],
   "author": "Brian Holt",
