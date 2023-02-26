@@ -22,7 +22,7 @@ const queryClient = new QueryClient({
 // Carousel component because we have to mock the fetchBreedList function. We do that by using the
 // jest.mock function. We also have to make sure that the queryClient is wrapped around the component
 // that we're testing.
-test("gives an emnpty list with no animal", async () => {
+test("gives an empty list with no animal", async () => {
     // We're using the renderHook function from the @testing-library/react package to render the hook.
     // We're also passing in a wrapper function that wraps the component that we're testing with the
     // queryClient.
